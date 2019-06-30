@@ -55,9 +55,9 @@ main:
 		bl		main
 	
 _start:
-	bl setup
-	bl main
+		bl setup
+		bl main
 
 stop:
-    b stop
+		b stop
 	
